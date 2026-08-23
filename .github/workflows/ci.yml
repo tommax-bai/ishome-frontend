@@ -1,0 +1,15 @@
+name: ci
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+
+jobs:
+  discipline:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: no-direct-fetch（API 只走生成的 api-client）
+        run: bash scripts/check-no-direct-fetch.sh
+  # TODO(脚手架细化后)：pnpm install / typecheck / lint / build 按 workspace 补齐

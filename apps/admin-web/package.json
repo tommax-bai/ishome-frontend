@@ -1,0 +1,6 @@
+{
+  "name": "@ishome/admin-web",
+  "private": true,
+  "version": "0.0.0",
+  "description": "管理后台前端：RuoYi-Vue-Plus 基座 + 自研模板验收台"
+}

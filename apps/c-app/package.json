@@ -1,0 +1,6 @@
+{
+  "name": "@ishome/c-app",
+  "private": true,
+  "version": "0.0.0",
+  "description": "C 端应用（uni-app Vue3 一码双端）：H5 指图时刻 + 小程序分享卡片与支付容器"
+}

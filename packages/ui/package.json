@@ -1,0 +1,6 @@
+{
+  "name": "@ishome/ui",
+  "private": true,
+  "version": "0.0.0",
+  "description": "跨端共享 UI 组件库"
+}

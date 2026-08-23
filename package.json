@@ -1,0 +1,10 @@
+{
+  "name": "ishome-frontend",
+  "private": true,
+  "version": "0.0.0",
+  "description": "是我的家 前端 monorepo：apps 只做装配，业务逻辑进 packages",
+  "scripts": {
+    "check:no-direct-fetch": "bash scripts/check-no-direct-fetch.sh"
+  },
+  "packageManager": "pnpm@11.22.0"
+}
