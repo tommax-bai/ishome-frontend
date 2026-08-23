@@ -1,0 +1,9 @@
+#!/usr/bin/env bash
+# 本地 pre-push 质量门（云端 CI 因账号计费停用期间的替代把关）。
+# 新 clone 后需执行一次：git config core.hooksPath .githooks
+# 紧急绕过：git push --no-verify（仅限确认过风险时使用）。
+set -euo pipefail
+cd "$(dirname "$0")/.."
+echo "== pre-push: no-direct-fetch check"
+./scripts/check-no-direct-fetch.sh
+echo "== pre-push: OK"
